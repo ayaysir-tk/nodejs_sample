@@ -1,0 +1,29 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "nodejs(SampleApp)の起動",
+            "type": "node",
+            "request": "launch",
+
+            "program": "${workspaceRoot}/server_01.js",
+//            "program": "${workspaceRoot}/server_02.js",
+
+            "stopOnEntry": false,
+            "args": [],
+//            "cwd": "${WorkspaceFolder}/",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+            },
+            "externalConsole": false,
+            "sourceMaps": false,
+            "outDir": null
+        }
+    ]
+}
